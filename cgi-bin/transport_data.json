@@ -1,0 +1,261 @@
+{
+    "items": [
+        {
+            "summary": {
+                "no": "1",
+                "start": {
+                    "type": "point",
+                    "coord": {
+                        "lat": 35.334871,
+                        "lon": 136.872194
+                    },
+                    "name": "江南（愛知県）",
+                    "node_id": "00002441",
+                    "node_types": [
+                        "station"
+                    ]
+                },
+                "goal": {
+                    "type": "point",
+                    "coord": {
+                        "lat": 35.169789,
+                        "lon": 136.883819
+                    },
+                    "name": "名鉄名古屋",
+                    "node_id": "00004372",
+                    "node_types": [
+                        "station"
+                    ]
+                },
+                "move": {
+                    "transit_count": 0,
+                    "fare": {
+                        "unit_0": 460.0,
+                        "unit_128_train": 16240.0,
+                        "unit_130_train": 46290.0,
+                        "unit_133_train": 87700.0
+                    },
+                    "type": "move",
+                    "from_time": "2023-01-28T15:03:00+09:00",
+                    "to_time": "2023-01-28T15:24:00+09:00",
+                    "time": 21,
+                    "distance": 21930,
+                    "move_type": [
+                        "rapid_train"
+                    ]
+                }
+            },
+            "sections": [
+                {
+                    "type": "point",
+                    "coord": {
+                        "lat": 35.334871,
+                        "lon": 136.872194
+                    },
+                    "name": "江南（愛知県）",
+                    "node_id": "00002441",
+                    "node_types": [
+                        "station"
+                    ],
+                    "numbering": {
+                        "departure": [
+                            {
+                                "symbol": "IY",
+                                "number": "10"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "transport": {
+                        "fare": {
+                            "unit_0": 460.0,
+                            "unit_128": 16240.0,
+                            "unit_130": 46290.0,
+                            "unit_133": 87700.0,
+                            "unit_136": 5210.0,
+                            "unit_138": 14850.0,
+                            "unit_141": 28140.0
+                        },
+                        "color": "#018B44",
+                        "name": "名鉄犬山線急行",
+                        "fare_season": "normal",
+                        "company": {
+                            "id": "00000149",
+                            "name": "名古屋鉄道"
+                        },
+                        "links": [
+                            {
+                                "id": "00000866",
+                                "name": "名鉄犬山線",
+                                "direction": "up",
+                                "destination": {
+                                    "name": "東枇杷島",
+                                    "id": "00006826"
+                                },
+                                "from": {
+                                    "name": "江南（愛知県）",
+                                    "id": "00002441"
+                                },
+                                "to": {
+                                    "name": "枇杷島分岐点",
+                                    "id": "00007746"
+                                },
+                                "is_timetable": "false"
+                            },
+                            {
+                                "id": "00000885",
+                                "name": "名鉄名古屋本線",
+                                "direction": "up",
+                                "destination": {
+                                    "name": "名鉄名古屋",
+                                    "id": "00004372"
+                                },
+                                "from": {
+                                    "name": "枇杷島分岐点",
+                                    "id": "00007746"
+                                },
+                                "to": {
+                                    "name": "名鉄名古屋",
+                                    "id": "00004372"
+                                },
+                                "is_timetable": "false"
+                            }
+                        ],
+                        "id": "00000786",
+                        "type": "快速",
+                        "fare_break": {
+                            "unit_0": true,
+                            "unit_128": true,
+                            "unit_130": true,
+                            "unit_133": true,
+                            "unit_136": true,
+                            "unit_138": true,
+                            "unit_141": true
+                        },
+                        "fare_detail": [
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 460.0,
+                                "id": "0"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 16240.0,
+                                "id": "128"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 46290.0,
+                                "id": "130"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 87700.0,
+                                "id": "133"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 5210.0,
+                                "id": "136"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 14850.0,
+                                "id": "138"
+                            },
+                            {
+                                "start": {
+                                    "node_id": "00002441",
+                                    "name": "江南（愛知県）"
+                                },
+                                "goal": {
+                                    "node_id": "00004372",
+                                    "name": "名鉄名古屋"
+                                },
+                                "fare": 28140.0,
+                                "id": "141"
+                            }
+                        ]
+                    },
+                    "type": "move",
+                    "move": "rapid_train",
+                    "from_time": "2023-01-28T15:03:00+09:00",
+                    "to_time": "2023-01-28T15:24:00+09:00",
+                    "time": 21,
+                    "distance": 21930,
+                    "line_name": "名鉄犬山線急行"
+                },
+                {
+                    "type": "point",
+                    "coord": {
+                        "lat": 35.169789,
+                        "lon": 136.883819
+                    },
+                    "name": "名鉄名古屋",
+                    "node_id": "00004372",
+                    "node_types": [
+                        "station"
+                    ],
+                    "numbering": {
+                        "arrival": [
+                            {
+                                "symbol": "NH",
+                                "number": "36"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "unit": {
+        "datum": "wgs84",
+        "coord_unit": "degree",
+        "distance": "metre",
+        "time": "minute",
+        "currency": "JPY"
+    }
+}

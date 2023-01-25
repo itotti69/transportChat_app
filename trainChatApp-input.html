@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action="cgi-bin/final/trainChatApp-navitime.rb" method="POST">
+        <!-- <input type="text" name="message"> -->
+        <label>出発駅名<textarea id="text" name="start" rows="1" cols="8"></textarea></label>
+        <label>到着駅名<textarea id="text_message" name="goal" rows="1" cols="8"></textarea></label><br>
+        <label>日付<input type="date" name="day"></label>
+        <label>出発時刻<input type="time" name="time"></label>
+        <button type="submit">送信</button>
+    </form>
+</body>
+
+</html>

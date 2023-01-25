@@ -1,0 +1,30 @@
+/* style.css */
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2em;
+}
+
+#result {
+    padding: 1em;
+    background-color: whitesmoke;
+    color: royalblue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: solid 1px royalblue;
+}
+
+td {
+    padding: 1em;
+}
