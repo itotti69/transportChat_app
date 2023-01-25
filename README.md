@@ -1,1 +1,1 @@
-# trainChat-app
+# trainChatApp
